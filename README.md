@@ -14,6 +14,9 @@ The game will keep a running score of how many tries were success and how many w
 - [x] create game initialization with random word
 - [x] create messaging for success
 - [x] create messaging for failure
-- [ ] create event handler to track user input
-- [ ] track the answer
-- [ ] create event handlers to track the score
+- [x] create event handler to track user input
+- [x] track the answer
+- [x] track wins
+- [x] track losses
+- [x] fix answer lines
+- [x] create event handlers to track the score
