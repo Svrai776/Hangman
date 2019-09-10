@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Guessing Game</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hangman | Word Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 </head>
+
 <body>
     <div class="container">
 
-
-        <div class="userinput-section">
-            <p class= "iphone" id="userchoice-text"></p>
-            <p class= "iphone" id="directions-text">Press any key to begin</p>
-            <p class= "iphone" id="wins-text"></p>
-            <p class= "iphone" id="losses-text"></p>
-            <p class= "iphone" id="remainingtries-text"></p>
-            <input type="text" id="user-input">
+        <div class="directions-wrapper">
+            <p>
+                Guess a letter that occurs in the following word:
+                <h3 id="answer"></h3>
+            </p>
+            <div class="userinput-section">
+                <label for="user-input">Guess a letter</label>
+                <input type="text" id="user-input">
+            </div>
+            <p>You have <span id="remaining-tries"></span> tries out of 9 remaining</p>
+            <p>You have <span id="wins-text"></span> successful guesses</p>
+            <p>You have <span id="losses-text"></span> failed guesses</p>
         </div>
     </div>
-    <script src="/index.js"></script>
+    <script src="/assets/js/index.js"></script>
 </body>
+
 </html>

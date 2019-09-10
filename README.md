@@ -1,4 +1,4 @@
-## Guessing game
+## Hangman | Word guessing game
 
 The game selects a random word and displays the length of the word to the user.
 The words are all less than 6 letters.
@@ -9,4 +9,11 @@ If the user gets a try correct then the letter is displayed in the correct posit
 
 The game will keep a running score of how many tries were success and how many were failure as well as how many tries the user has left.
 
-
+## TODO
+- [x] create ui layout for game
+- [x] create game initialization with random word
+- [x] create messaging for success
+- [x] create messaging for failure
+- [ ] create event handler to track user input
+- [ ] track the answer
+- [ ] create event handlers to track the score
