@@ -1,5 +1,5 @@
 body{
-    background-image: url(assets/Images/Picture1.png);
+    background-image: url(/assets/Images/Picture1.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -7,6 +7,28 @@ body{
 
 }
 
-.userinput-section{
-
+.directions-wrapper{
+    display: inline;
+    text-align: center;
 }
+
+.marginTopCss{
+    margin-top: 130px;
+}
+
+p,
+label{
+    font-size: 14px;
+}
+
+#remaining-tries,
+#wins-text{
+    color: green;
+    font-weight: bolder;
+}
+
+#losses-text{
+    color: red;
+    font-weight: bolder;
+}
+

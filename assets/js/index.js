@@ -56,7 +56,7 @@ function updateAnswerElement(userInput) {
     console.log('answerArray: ' + answerArray);
     answerElement.innerText = answerArray.join(' ');
     if (!answerArray.includes('_')) {
-        alert('Success you won! The anser is ' + answer);
+        alert('Success you won! The anwser is ' + answer);
         resetGame();
     }
 }
@@ -69,3 +69,4 @@ function resetGame() {
     initGame();
     userInputElement.value = userInput;
 }
+
