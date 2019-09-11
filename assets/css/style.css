@@ -1,7 +1,8 @@
 body{
-    background-image: url(../Images/Picture1.png);
+
     background-repeat: no-repeat;
     background-size: cover;
+    max-width: 960px;
 
 
 
